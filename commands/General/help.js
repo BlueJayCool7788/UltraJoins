@@ -13,12 +13,12 @@ module.exports = {
 
  
     
-    message.channel.send("Good news, we have released a new version of UltraJoins, with lots of new features!\nMore information at https://discord.gg/8D2Bb9PZYX")
+    message.channel.send("Hola! We are saying hello to Discords.com! Thanks for using the bot in this time")
     
     const embed = new Discord.MessageEmbed()
     .setAuthor(client.user.username, client.user.displayAvatarURL())
         
-        .setDescription(`● If you need help, join our [support server](${config.supportServer}).\n● UltraJoins dev by **Ceed#0001**.\n\n\`🏆\` **Owner**: \`list\`, \`addbal\`, \`bbal\`, \`del\`, \`blacklist\`, \`whitelist\`, \`remove\`, \`leaveserv\`.\n\`⚒️\` **Administration**: \`newprefix\`, \`lang\`.\n\`💎\` **General**: \`help\`, \`invite\`, \`bal\`, \`pay\`, \`check\`, \`info\`, \`buy\`, \`giftcode\`, \`bug\`, \`stats\`, \`farm\`, \`leaderboard\`.`)
+        .setDescription(`● If you need help, join our [support server](${config.supportServer}).\n● J4C dev by **TzIXD#2785**.\n\n\`🏆\` **Owner**: \`list\`, \`addbal\`, \`bbal\`, \`del\`, \`blacklist\`, \`whitelist\`, \`remove\`, \`leaveserv\`.\n\`⚒️\` **Administration**: \`newprefix\`, \`lang\`.\n\`💎\` **General**: \`help\`, \`invite\`, \`bal\`, \`pay\`, \`check\`, \`info\`, \`buy\`, \`giftcode\`, \`bug\`, \`stats\`, \`farm\`, \`leaderboard\`.`)
     
     .addField("🔗 Links", `[Support](${config.supportServer}) ● [Add Me](${config.addBot})`, false)
        .setImage(`${config.ImageEmbed}`)
