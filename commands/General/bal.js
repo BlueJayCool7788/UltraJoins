@@ -10,7 +10,7 @@ module.exports = {
   
 var server = client.guilds.cache.get(`${message.guild.id}`);
 if(server != '1009088940252332163') {
-  message.channel.send('Join4Coin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute J4C bot commands !\n\n`Link:` https://discord.gg/j7zUQAXsrX')
+  message.channel.send('Join4Coin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute J4C bot commands !\n\n`Link:` https://discord.gg/JubWWKMyZq')
   } else {
   
  
