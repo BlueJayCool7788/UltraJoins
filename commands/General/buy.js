@@ -97,7 +97,7 @@ module.exports = {
     
     .setColor("#2f3136")
     .setAuthor(client.user.username, client.user.displayAvatarURL())
-     .setDescription("📌 A person has purchased a `promotion` for their server . So hurry up with the `+farm` command to join and win `1` coins!")
+     .setDescription("📌 A person has purchased a `promotion` for their server . So hurry up with the `+farm` command to join and win `6` coins!")
     .addField(`Server:`, `${message.guild.name}`, false)
       .setImage(`${config.ImageEmbed}`)
     
