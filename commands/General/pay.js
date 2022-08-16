@@ -10,9 +10,8 @@ module.exports = {
   execute: async(client, message, args, data, db) => {
   
   var server = client.guilds.cache.get(`${message.guild.id}`);
-if(server != '982712971782406244') {
-  message.channel.send('UltraJoin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute UltraJoin bot commands !\n\n`Link:` https://discord.gg/j7zUQAXsrX')
-  } else {
+if(server != '') {
+  message.channel.send('  } else {
   
   
      let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "+";
