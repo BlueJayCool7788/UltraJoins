@@ -11,7 +11,7 @@ module.exports = {
   
   var server = client.guilds.cache.get(`${message.guild.id}`);
 if(server != '982712971782406244') {
-  message.channel.send('UltraJoin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute UltraJoin bot commands !\n\n`Link:` https://discord.gg/j7zUQAXsrX')
+  message.channel.send('J4C bot commands are **forbidden to use** in other servers, Please **join our support server** to execute The bot commands by running +invite
   } else {
    
     let orders = await db.startsWith(`orders_`, { sort: ".data" })
