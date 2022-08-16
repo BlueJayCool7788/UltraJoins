@@ -29,3 +29,4 @@ UltraJoins has a lot of features to gain members:
 ## License
 
 UltraJoins is licensed under the GPL 3.0 license. See the “LICENSE” file for more information. If you are considering using any of this source code in your own bot, I would appreciate it if you would include some form of credit somewhere.
+**FORKED BY BLUEJAY7676**
