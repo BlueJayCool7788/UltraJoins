@@ -9,8 +9,8 @@ module.exports = {
   
   
 var server = client.guilds.cache.get(`${message.guild.id}`);
-if(server != '982712971782406244') {
-  message.channel.send('UltraJoin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute UltraJoin bot commands !\n\n`Link:` https://discord.gg/j7zUQAXsrX')
+if(server != '1009088940252332163') {
+  message.channel.send('Join4Coin bot commands are **forbidden to use** in other servers, Please **join our support server** to execute J4C bot commands !\n\n`Link:` https://discord.gg/j7zUQAXsrX')
   } else {
   
  
@@ -39,7 +39,7 @@ if(server != '982712971782406244') {
 
     let embed = new Discord.MessageEmbed()
     
-    .setAuthor("UltraJoins", client.user.displayAvatarURL())
+    .setAuthor("J4C Discord Bot", client.user.displayAvatarURL())
     .setDescription(`You have \`${data.coins.toFixed(1)}\` coin(s)\n**Earn coins by running** \`+farm\``)
 
     .addField(`__**Your last transactions**__`, logs.length == 0? "No transaction history found!" : logs.join("\n"))
